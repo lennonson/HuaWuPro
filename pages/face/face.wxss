@@ -1,0 +1,124 @@
+/* pages/face/face.wxss */
+.page {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+}
+.studio {
+  position: relative;
+  margin-top: 9px;
+  width: 90%;
+  height: 115vw;
+  border: solid;
+  border-radius: 2ch;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  margin-top: 13px;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+.imgElement {
+  position: absolute;
+}
+.mouth {
+  bottom: 22.3%;
+  width: 26%;
+  z-index: 20;
+}
+.jaw {
+  bottom: 7.5%;
+  width: 33%;
+  z-index: 19;
+}
+.main {
+  height: 88.5%;
+  bottom: 7.8%;
+}
+.eye {
+  width: 52%;
+  bottom: 50%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 67vw;
+  padding: 5px;
+}
+
+
+.select {
+  height: 45px;
+  background-color: #ccc;
+  border-radius: 1ch;
+  padding: 0 20px; 
+  white-space: nowrap;
+}
+
+.choicesContainer {
+  display: inline-flex; 
+  width: 60px;
+  height: 70%;
+  border: solid;
+  border-radius: 10px;
+  margin-right: 7px;
+  margin-top: 4.5px;
+}
+.choices {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.scroll-area {
+  width: 100%;
+  height: 230px;
+  overflow-y: scroll; 
+}
+.face-container {
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.face-element {
+  width: 25%; 
+  position: relative;
+  padding-bottom: 35%; 
+}
+.noneImg {
+  width: 70%;
+  height: 70%;
+}
+.elementContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  border-radius: 2ch;
+  transition: background-color 0.2s ease-in-out;
+}
+.elementContainer:active {
+  background-color: rgb(190, 101, 95);
+}
+.element-image {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+}

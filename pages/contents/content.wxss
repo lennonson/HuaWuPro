@@ -1,0 +1,42 @@
+/* pages/contents/content.wxss */
+.titleContainer {
+  height: 18vh;
+  width: 49vh;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  border-bottom: solid;
+  padding: 0 20px 0 10px;
+}
+.title {
+  font-size: 3vh;
+}
+.subTitle {
+  font-size: 2vh;
+}
+.container {
+  width: 100%;
+  padding: 0 5px 0 5px;
+}
+.videoContainer {
+  margin: 5px;
+  width: 100%;
+}
+.videoPlayer {
+  width: 100%;
+  height: 35vh;
+  box-sizing: border-box;
+}
+.brief {
+  box-sizing: border-box;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  padding: 10px;
+  background-color: #fcb5b5;
+  border-radius: 2ch;
+}
+.txt_brief {
+  font-size: 2.4vh;
+  text-indent: 2em;
+}

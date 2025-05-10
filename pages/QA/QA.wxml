@@ -1,0 +1,20 @@
+<!--pages/QA/QA.wxml-->
+<view class="page">
+  <view class="question">
+    {{feed.question}}
+  </view>
+  <view class="choices">
+    <view class="options {{optionClasses[0]}}" bindtap="chooseQA" data-index="1">{{feed.option1}}</view>
+    <view class="options {{optionClasses[1]}}" bindtap="chooseQA" data-index="2">{{feed.option2}}</view>
+    <view class="options {{optionClasses[2]}}" bindtap="chooseQA" data-index="3">{{feed.option3}}</view> 
+    <view class="options {{optionClasses[3]}}" bindtap="chooseQA" data-index="4">{{feed.option4}}</view>
+  </view>
+  <view class="line"></view>
+  <scroll-view class="analysis"style="height: {{height}}vw">
+    解析：{{analysis}}
+  </scroll-view>
+  <view class="widget">
+    <view class="pre btn"bindtap="preQuestion">上一题</view>
+    <view class="next btn"bindtap="nextQuestion">下一题</view>
+  </view>
+</view>

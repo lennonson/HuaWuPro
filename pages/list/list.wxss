@@ -1,0 +1,105 @@
+/* pages/list/list.wxss */
+.page {
+  display: flex; 
+  flex-direction: column; 
+  width: 100%; 
+  height: 100%; 
+}
+.search_container1{
+  height: 32px;
+  margin: 5px 5px 0 5px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  border: solid;
+  border-radius: 2ch;
+}
+.search_box {
+  display: flex;
+  width: 90%;
+  color: gray;
+  align-items: center;
+}
+.Btn {
+  display: flex;
+  width: 20px;
+  height: 25px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.searchBtn  {
+  margin-left: 3px;
+}
+.clearBtn {
+  margin-left: 330px;
+}
+.search_input {
+  position: absolute;
+  margin-left: 30px;
+  width: 260px;
+}
+.ans_container {
+  color: black;
+  background-color: rgba(241, 149, 149, 0.6);
+  backdrop-filter: blur(10px);
+  top: 42px;
+  position: absolute;
+  width: 98%;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: height 0.3s ease;
+  overflow: hidden;
+}
+.options {
+  border-bottom: solid;
+  border-color: gray;
+  /* width: 56vh; */
+  width: 100%;
+  height: 40px;
+  padding: 7px 0 5px 10px;
+  margin-bottom: 2px;
+  margin-top: 3px;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+}
+.swiper_container {
+  height: 60vh;
+  margin: 5px;
+  margin-bottom: 10px;
+  border-radius: 2ch;
+  overflow: hidden;
+}
+
+
+.list1switch{
+	display: flex;
+	flex-wrap: wrap;
+}
+.grid1{
+	width:33.33%;
+	height: 200rpx;
+  display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+  box-sizing: border-box;
+}
+.grid1 image{
+	height: 100rpx;
+	width: 100rpx;
+}
+.grid1 text{
+ font-size: 100rpx;
+ margin-top: 100rpx;
+}

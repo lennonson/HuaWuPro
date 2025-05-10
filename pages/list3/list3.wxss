@@ -1,0 +1,65 @@
+/* pages/list3/list3.wxss */
+Page{
+  background-color: rgba(219, 221, 224, 0.425);
+}
+.cover {
+  top: -9%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.amountBg{
+  padding: 18px 0 20px 0;
+  margin: 135px 15px 13px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2ch;
+  box-shadow:0rpx  5rpx  10rpx 3rpx rgb(221, 220, 220);
+  background-color: #ffffff;
+}
+.img{
+  width: 86px;
+  height: 86px;
+  margin-bottom: 10px;
+}
+.account{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name{
+  font-size: 40rpx;
+  margin-bottom: 5px;
+}
+.manage_text{
+  font-size: 25rpx;
+  color: #707075;
+}
+
+.contain {
+  margin: 0 15px 0 15px;
+  padding: 2px 0 10px 0;
+  box-shadow:2rpx  8rpx  8rpx 5rpx rgb(216, 212, 212);
+  border-radius: 2ch;
+  background-color: #ffffff;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  align-items: center;
+  width: 100%;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+.icon{
+  margin: 0 10px 0 15px;
+  width: 55rpx;
+  height: 55rpx;
+}
+.itemname{
+  color: gray;
+  font-size: 34rpx;
+}

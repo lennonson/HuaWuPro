@@ -1,0 +1,47 @@
+/* pages/list4/list4.wxss */
+.ziti{
+  width: 100%;
+  height: 110%rpx;
+  background-color: #fdfdfb;
+  text-align:center;
+}
+.ziti>text{
+  font-size:50rpx;
+  font-weight:bold;
+  color:#e6b820;
+  line-height:110rpx;
+  font-style:unset;
+}
+.container {
+  height: 90vh;
+  box-sizing: border-box;
+}
+.swiper_item {
+  display:grid;
+}
+.img {
+  border-radius: 2ch;
+  width: 28vh;
+  height: 35vh;
+  margin-left: 87px;
+  margin-bottom: 5px;
+}
+.brief {
+  padding: 15px;
+}
+.txt {
+  font-size: 18px;
+  padding-left: 2em;
+  font-family: monospace;
+}
+.sequence {
+  margin-top: 3px;
+  margin-right: 8px;
+  width: 5%;
+  height: 40rpx;
+  background-color: #EEAD0E;
+}
+.title {
+  display: flex;
+  font-size: 20px;
+}

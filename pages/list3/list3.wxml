@@ -1,0 +1,34 @@
+<!--pages/list3/list3.wxml-->
+<image class="cover" mode="aspectFit" src="https://ooo.0x0.ooo/2024/10/26/OD8pkp.png"></image>
+<view class='amountBg'>
+  <image class="img" mode="scaleToFill" src="https://ooo.0x0.ooo/2024/10/26/ODXQOL.jpg"></image>
+  <view class='account'>
+    <text class="name" >登录/注册</text>
+    <view class='manage_text'>登录后查看更多</view>
+  </view>
+</view>
+
+<view class='contain'>
+  <view class='item'>
+    <image class='icon' src='https://ooo.0x0.ooo/2024/10/26/ODXVPj.png'></image>
+    <view class='itemname'>账号与安全</view>
+  </view>
+  <view class='item'>
+    <image class='icon' src='https://ooo.0x0.ooo/2024/10/26/ODX0LX.png'></image>
+    <view class='itemname'>消息通知</view>
+  </view>
+
+  <view class='item'>
+    <image class='icon' src='https://ooo.0x0.ooo/2024/10/26/ODXsFx.png'></image>
+    <view class='itemname'>帮助与反馈</view>
+  </view>
+  <view class='item'>
+    <image class='icon' src='https://ooo.0x0.ooo/2024/10/26/ODXcut.png'></image>
+    <view class='itemname'>关于晋剧</view>
+  </view>
+  <view class='item'>
+    <image class='icon' src='https://ooo.0x0.ooo/2024/10/26/ODXSNi.png'></image>
+    <view class='itemname' bindtap="bindtap_icon4">人工客服</view>
+  </view>
+</view>
+

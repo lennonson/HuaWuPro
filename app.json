@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/list2/list2",
+    "pages/list3/list3",
+    "pages/list4/list4",
+    "pages/list5/list5",
+    "pages/list7/list7",
+    "contact/contact.js",
+    "pages/contents/content",
+    "pages/face/face",
+    "pages/QA/QA"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "三晋梨园",
+    "navigationBarBackgroundColor": "#9e0102",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "selectedColor": "#e2687b",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "首页",
+        "iconPath": "/images/脸谱.png",
+        "selectedIconPath": "/images/脸谱.png"
+      },
+      {
+        "pagePath": "pages/list2/list2",
+        "text": "经典剧目",
+        "iconPath": "/images/分类.png",
+        "selectedIconPath": "/images/分类.png"
+      },
+      {
+        "pagePath": "pages/list3/list3",
+        "text": "个人中心",
+        "iconPath": "/images/戏剧.png",
+        "selectedIconPath": "/images/戏剧.png"
+      }
+    ]
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

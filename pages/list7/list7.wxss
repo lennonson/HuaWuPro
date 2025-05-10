@@ -1,0 +1,51 @@
+/* pages/list7/list7.wxss */
+.page {
+  box-sizing: border-box;
+  padding: 0 5px 20px 5px;
+  display: flex;
+  flex-direction: column;
+}
+.container7{
+  height: 110rpx;
+  font-size: 50rpx;
+  white-space: nowrap;
+}
+.container7>text{
+  font-size: 47rpx;
+  font-weight: bold;
+  color: #e6b820;
+  line-height: 110rpx;
+  font-style: unset;
+}
+
+.videoPlayer {
+  border-radius: 2ch;
+  width: 100%;
+}
+
+.quare{
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #EEAD0E;
+}
+.titleTxt {
+  font-size: 1.3em;
+  margin-left: 8px;
+}
+.title{
+  display: flex;
+  height: 35px;
+  align-items: center;
+  padding-left: 3px;
+}
+
+.textContainer{
+  background-color: rgba(153, 149, 141, 0.493);
+  border-radius: 18rpx;
+  padding: 5px;
+}
+
+.txt {
+  font-size: 18px;
+  padding-left: 2em;
+}

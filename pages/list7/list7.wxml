@@ -1,0 +1,29 @@
+<!--pages/list7/list7.wxml-->
+<scroll-view class="page" enable-flex="true">
+  <view class="container7">
+    <text>——————晋剧简介——————</text>
+  </view>
+  <video src="{{VideoID}}" controls="false" class="videoPlayer"
+          enable-play-gesture="true">
+  </video>
+
+  <view class="title">
+    <view class="quare"></view>
+    <text class="titleTxt">晋剧</text>
+  </view>
+
+  <view class="textContainer">
+      <text class="txt">晋剧，汉族地方戏曲，山西四大梆子剧种之一，又名山西梆子。因产生于山西中部，故又称中路梆子，也称为“中戏”，外省称之为山西路梆子，主要流行于山西中、北部及陕西、内蒙古和河北的部分地区。 [1]晋剧特点是旋律婉转、流畅，曲调柔美、圆润、亲切，道白清晰，具有晋中地区浓郁的乡土气息和自己独特风格，发展过程中吸收晋中地区民歌、秧歌等民间艺术韵调，风格特具，晋剧保留了蒲州梆子慷慨激昂的艺术特色，同时形成婉转细腻的抒情风格。
+      </text>
+  </view>
+
+  <view class="title">
+    <view class="quare"></view>
+    <text class="titleTxt">晋剧历史</text>
+  </view>
+
+  <view class="textContainer">
+    <text class="txt">晋剧的历史可以追溯到清代初期，当时‌蒲州梆子流入晋中，与当地曲调结合，形 成了晋剧。经过几代艺人的努力，晋剧在清末民初达到了发展的高峰，涌现出许多优秀的表演艺术家和剧目。晋剧的唱腔结构属于板腔体，包括乱弹、腔儿和曲子三种主要唱腔，其中乱弹是主要的唱腔，拥有多种板式。晋剧的表演不仅具有梆子腔的激越、粗犷的特点，还融合了细腻的抒情风格，能够生动地表现各种情感和故事。传统剧目如《‌打金枝》、《‌金水桥》等深受观众喜爱。
+    </text>
+  </view>
+</scroll-view>

@@ -1,0 +1,14 @@
+<!--pages/contents/content.wxml-->
+<view class="titleContainer">
+  <text class="title">晋剧 {{titles[feedIndex]}}</text>
+  <text class="subTitle">{{subTitle[feedIndex]}}</text>
+</view>
+<view class="container">
+  <view class="videoContainer" >
+    <video src="{{tempFileURLs[feedIndex]}}" controls="false" class="videoPlayer"
+          enable-play-gesture="true"></video>
+  </view>
+  <view class="brief">
+    <text class="txt_brief">{{briefs[feedIndex]}}</text>
+  </view>
+</view>

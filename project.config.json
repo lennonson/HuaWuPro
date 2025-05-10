@@ -1,0 +1,30 @@
+{
+  "compileType": "miniprogram",
+  "setting": {
+    "coverView": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "enhance": true,
+    "showShadowRootInWxmlPanel": true,
+    "packNpmRelationList": [],
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "ignoreUploadUnusedFiles": true
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "simulatorPluginLibVersion": {},
+  "libVersion": "3.5.7",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wxcd16b4050252c22f"
+}

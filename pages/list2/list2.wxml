@@ -1,0 +1,11 @@
+<!--pages/list2/list2.wxml-->
+
+<scroll-view class="container" enable-flex="true">
+  <block wx:for="{{feed}}" wx:for-index="idx" wx:key="idx"
+  wx:for-item="item">
+    <navigator url="/pages/contents/content?feedIndex={{idx}}" open-type="navigate" class="chapters">
+      <image class="img"  src="{{item.feed_source_img}}"></image>
+      <text class="brief">{{item.brief}}</text>
+    </navigator>
+  </block>
+</scroll-view>

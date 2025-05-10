@@ -1,0 +1,74 @@
+<!--pages/list5/list5.wxml-->
+<view class="ziti">
+  <text>—————晋剧行当—————</text>
+</view>
+
+<view class="page">
+  <view class="title">
+    <view class="quare"></view>
+    <text class="titleTxt">行当分类:</text>
+  </view>
+
+  <text class="txt">晋剧角色行当主要有“三大门”须生、正旦、大花脸和“三小门”小生、小旦、小花脸。
+  </text>
+
+  <view class="title">
+    <view class="quare"></view>
+    <text class="titleTxt">三大门：</text>
+  </view>
+
+  <view class="imgContainer">
+    <image src="https://ooo.0x0.ooo/2024/10/26/OD8cpD.md.webp"mode="aspectFill" class="img"></image>
+  </view>
+
+  <text class="txt">
+    <text class="subTitle">须生</text>  行当根据角色的不同特点，可以细分为老生和红生。老生通常扮演老年角色，注重内心情感的表达和沉稳的表演风格。红生则多扮演忠勇正直的中年人物，常常需要有较好的武打技巧和英俊的形象。须生的表演不仅仅局限于唱功，还包括念白、做功和武打等多种技艺的综合运用。
+  </text>
+
+  <view class="imgContainer">
+    <image src="https://ooo.0x0.ooo/2024/10/26/OD8Q81.md.jpg"mode="aspectFill" class="img"></image>
+  </view>
+
+  <text class="txt">
+    <text class="subTitle">正旦</text>  又称青衣，是晋剧旦行中的一个重要角色类型。正旦通常扮演端庄、严肃、正派的中年妇女，这些角色大多数是贤妻良母或者贞节烈女等正面形象。正旦的表演特点是以唱功为主，动作幅度相对较小，行动稳重，念白多为韵白，唱工繁重。在晋剧中，正旦常与胡子生（老生）配戏，戏的分量一般都较重。正旦角色在舞台上演绎的情感深沉，要求演员能够准确地表达角色的内心世界和社会地位.正旦的服装通常以青褶子为主，因此也有“青衣”或“青衫”之称。在不同的剧目中，正旦的服饰可能会有所变化，但总体上色彩较为素雅，以体现角色的庄重和品德。正旦在晋剧中的表演不仅要求有良好的唱功，还需要有一定的做功和念白技巧，以及稳定的台风和深厚的内涵.
+  </text>
+
+  <view class="imgContainer">
+    <image src="https://ooo.0x0.ooo/2024/10/26/OD8vnt.webp"mode="aspectFill" class="img"></image>
+  </view>
+
+  <text class="txt">
+    <text class="subTitle">大花脸</text>  也称为净或黑头，是晋剧中的一个重要行当，属于花脸行。这个行当的演员通常扮演性格、品质或相貌特异的人物，他们的面部会勾画各种颜色的脸谱，以此来突显角色的个性特征。大花脸角色在晋剧中通常具有较高的社会地位，如官员、将军等。他们的表演风格偏重于唱、念、做和举止的稳重，通过夸张的表情和动作来传达角色的内在情感和故事情节.
+  </text>
+
+  <view class="title">
+    <view class="quare"></view>
+    <text  class="titleTxt">三小门：
+    </text>
+  </view>
+
+  <view class="imgContainer">
+    <image src="https://ooo.0x0.ooo/2024/10/26/OD8dfF.md.png"mode="aspectFill" class="img"></image>
+  </view>
+
+  <text class="txt">
+    <text class="subTitle">小生</text>  是晋剧旦行中的一个重要分支，主要扮演青年男性角色。晋剧小生根据角色的不同特点，可以细分为文生、武生和娃娃生等几种类型。文生又包括纱帽生、翎子生、巾子生、穷生等，武生则分为短打武生和长靠武生，娃娃生则是指剧中的儿童角色.
+  </text>
+
+  <view class="imgContainer">
+    <image src="https://ooo.0x0.ooo/2024/10/26/OD8DSc.md.webp"mode="aspectFill" class="img"></image>
+  </view>
+
+  <text class="txt">
+    <text class="subTitle">小旦</text>  是晋剧旦行中的一个重要类别，主要扮演年轻未婚的女性角色，如大家闺秀或小家碧玉。这类角色通常性格内向、腼腆，服饰华丽，表演上要求细腻、婉约，能够表现出角色的纯真和青春活力。小旦在晋剧中的表演不仅仅局限于歌舞，还包括较多的念白和内心戏，要求演员具有较好的文学修养和情感表达能力.
+  </text>
+
+  <view class="imgContainer">
+    <image src="https://ooo.0x0.ooo/2024/10/26/OD80kI.webp"mode="aspectFill" class="img"></image>
+  </view>
+
+  <text class="txt">
+    <text class="subTitle">小花脸</text>  在晋剧中属于丑角的范畴，主要扮演性格鲜明、举止滑稽的角色。这些角色在剧中往往起到调节气氛、增加喜剧效果的作用。小花脸角色在表演上不仅要有出色的念白和做功，还要能够通过夸张的表情和动作来吸引观众的注意力，展现角色的个性特征。
+  </text>
+</view>
+

@@ -1,0 +1,91 @@
+<!--pages/list/list.wxml-->
+<view class="page" bindtap="onPage">
+  <view class="search_container1">
+    <view class="search_box">
+      <view class="searchBtn Btn" bindtap="onSearch">
+        <icon type="search" size="18"></icon>
+      </view>
+
+      <input type="text" placeholder="搜索查看更多内容" class="search_input"bindconfirm="onSearch" 
+      bindinput="onInput"  value="{{searchQuery}}"/>
+
+      <view class="clearBtn Btn" bindtap="onClear">
+        <icon type="clear" size="18"></icon>
+      </view>
+    </view>
+
+    <view class="ans_container" style="height: {{ansHeight}}px;">
+      <block wx:for="{{ans}}" wx:key="index"wx:for-item="item">
+        <navigator url="/pages/contents/content?feedIndex={{item.index}}" open-type="navigate" class="options">
+          <text>{{item.brief}}</text>
+        </navigator>
+      </block>
+    </view>
+
+  </view>
+
+
+  <swiper class="swiper_container" indicator-dots="true" 
+  circular="true"  indicator-active-color="red" indicator-color="white" autoplay="true" interval="3000">
+  	<swiper-item>
+      <navigator url="/pages/contents/content?feedIndex=0" open-type="navigate"class="cover">
+  		  <!-- <image mode="aspectFill" class="img" src="https://ooo.0x0.ooo/2024/10/26/OD8g6j.md.png"></image> -->
+        <image mode="scaleToFill" class="img" src="/images/PixPin_2024-11-14_16-02-06.png"></image>
+      </navigator>
+  	</swiper-item>
+
+  	<swiper-item> 
+      <navigator url="/pages/contents/content?feedIndex=1" open-type="navigate"class="cover">
+  		  <!-- <image mode="aspectFill" class="img" src="https://ooo.0x0.ooo/2024/10/26/OD8JpU.md.png"></image> -->
+        <image mode="scaleToFill" class="img" src="/images/PixPin_2024-11-14_16-02-14.png"></image>
+      </navigator>
+  	</swiper-item>
+
+  	<swiper-item>  
+      <navigator url="/pages/contents/content?feedIndex=2" open-type="navigate"class="cover">
+  		  <image mode="aspectFill" class="img" src="https://ooo.0x0.ooo/2024/10/26/OD8t5v.md.png"></image>
+      </navigator>
+  	</swiper-item>
+
+  	<swiper-item> 
+      <navigator url="/pages/contents/content?feedIndex=3" open-type="navigate"class="cover">
+  		  <image mode="aspectFill" class="img" src="https://ooo.0x0.ooo/2024/10/26/OD8PYY.md.png"></image>
+      </navigator>
+  	</swiper-item>
+  </swiper>
+
+  <view class="list1switch">
+    <navigator url="/pages/list7/list7" open-type="navigate" class="grid1"> 
+      <!-- <image src="https://ooo.0x0.ooo/2024/10/26/OD8GDG.png" ></image> -->
+      <image src="/images/PixPin_2024-11-14_16-10-41.png"></image>
+       简介
+    </navigator>
+
+    <navigator url="/pages/list4/list4" open-type="navigate" class="grid1">
+      <!-- <image src="https://ooo.0x0.ooo/2024/10/26/OD8Hwr.jpg"></image> -->
+      <image src="/images/PixPin_2024-11-14_16-09-15.png"></image>
+       <!-- 晋剧名家 -->
+       小走兽
+    </navigator>
+
+    <navigator url="/pages/list5/list5" open-type="navigate" class="grid1">
+      <!-- <image src="https://ooo.0x0.ooo/2024/10/26/OD8yDx.jpg"></image> -->
+      <image src="/images/PixPin_2024-11-14_16-07-39.png"></image>
+       <!-- 行当 -->
+       VR全景体验
+    </navigator>
+  </view>
+  <view class="list1switch">
+    <navigator url="/pages/face/face" open-type="navigate" class="grid1">
+      <image src="https://ooo.0x0.ooo/2024/10/26/OD84Kq.png"></image>
+      <!-- 脸谱DIY -->
+      兽头创意制作
+    </navigator>
+    <navigator url="/pages/QA/QA" open-type="navigate" class="grid1">
+      <image src="https://ooo.0x0.ooo/2024/10/26/OD8yDx.jpg"></image>
+      <!-- 知识问答 -->
+      集章活动
+    </navigator>
+  </view>
+
+</view>
